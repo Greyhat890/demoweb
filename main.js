@@ -22,3 +22,23 @@ function menutoggle(){
         MenuItems.style.maxHeight = "0px";
     }
 }
+//zobot
+{
+	"connectionLinkName": "zobotsalesiq",
+	"connectionName": "zobotsalesiq",
+	"serviceName": "zlabs_integration",
+	"userAccess": false,
+	"isUserDefinedService": false,
+	"sharedBy": "769146822",
+	"scope": [
+		"SalesIQ.visitors.ALL",
+		"SalesIQ.visitors.UPDATE",
+		"SalesIQ.visitors.READ",
+		"SalesIQ.operators.ALL",
+		"SalesIQ.visitors.CREATE",
+		"SalesIQ.conversations.READ",
+		"SalesIQ.conversations.CREATE",
+		"SalesIQ.conversations.UPDATE",
+		"SalesIQ.conversations.DELETE"
+	]
+}
